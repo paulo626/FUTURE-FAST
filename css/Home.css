@@ -3,6 +3,7 @@
     font-family: "Inter", sans-serif;
     text-align: center;
 }
+
 .header{
     width: 100%;
     height: 100px;
@@ -45,7 +46,6 @@
     width: 100%;
     height: 300px;
     margin-top: 40px;
-    background-color: rgb(255, 255, 255);
 }
     .alinhamento{
         width: 100%;
@@ -56,7 +56,7 @@
         .D-Printing{
             width: 60%;
             height: 100%;
-            background: url('/assets/BarraBannerCerto.PNG');
+            background: url('/assets/BarraBannerCerto-removebg-preview.png');
             background-repeat: no-repeat;
             background-position: center;
             background-size: inherit;
