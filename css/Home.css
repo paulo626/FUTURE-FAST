@@ -86,14 +86,15 @@
             border: none;
         }
 .resumo{
-    width: 90%;
-    margin: 60px 5% 30px 5%;
+    width: 100%;
+
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
+    background-color:linear-gradient(90deg, rgba(201,201,201,1) 6%, rgba(211,211,211,1) 22%, rgba(233,233,233,1) 79%);
 }
     .textoresumo{
-        width: 39%;
+        width: 70%;
     }
         .TextoResumo{
             font-size: 176%;
