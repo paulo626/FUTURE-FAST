@@ -1,0 +1,27 @@
+
+
+.conterTudoEstudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+    .linksBooksMarks{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .linksGuardados{
+        width: 80%;
+        margin-top: 20px;
+        background-color: rgb(139, 139, 139);
+        border-radius: 5px;
+        padding: 15px;
+    }
+        .linkBook{
+            width: 100%;
+            height: 1fr;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
