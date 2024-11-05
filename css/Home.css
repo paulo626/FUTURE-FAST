@@ -36,12 +36,24 @@
         justify-content: end;
     }
         .botaoIA{
-            width: 150px;
-            height: 50px;
-            background-color: #017a6e;
+            width: 206px;
+            height: 70px;
+            color:black;
+            background-color: #16c900;
             border-radius: 9px;
             border: none;
         }
+        .botaoIA:hover{
+            background-color: #ff9100;
+            animation: Almentar 1.5s infinite;
+        }
+        @keyframes Almentar {
+            0%{transform: scale(1);}
+            50%{transform: scale(1.067);}
+            100%{transform: scale(1);}
+        }
+
+
 .resumo{
     width: 90%;
 
