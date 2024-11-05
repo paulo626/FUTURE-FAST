@@ -4,19 +4,26 @@
     background-color: #1C2120;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    transition: top 0.5s;
 }
-    .logo{
-        width: 10%;
+    .logoBanner{
+        width: 25%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
         .LogoImg{
-            width: 100px;
+            width: 170px;
+        }
+        .NomeLogo{
+            color: white;
+            font-size: 130%;
+            font-family: "Castoro Titling", serif;
         }
     .caminhos{
-        width: 70%;
+        width: 50%;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -28,13 +35,23 @@
             font-family: "Roboto", sans-serif;
         }
     .opcoes{
-        width: 10%;
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
     }
         .opcoesImg{
             width: 43px;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .header.fixo {
+            position: fixed;
+            top: 0; /* Fixa no topo */
+            left: 0;
+            width: 100%; /* Garante que o banner ocupe toda a largura */
+            z-index: 1000; /* Garante que o banner fique acima de outros elementos */
         }
 /*-------------< rodape >------------------------------------*/
 

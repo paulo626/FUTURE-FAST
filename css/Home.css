@@ -6,36 +6,31 @@
 
 .banner{
     width: 100%;
-    height: 340px;
+    height: 595px;
     padding-top: 20px;
     background: url('/assets/ImagensHome/pexels-tara-winstead-8386358.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
 }
-    .alinhamento{
+    .titulo-banner{
         width: 100%;
-        height: 50%;
         display: flex;
+        align-items: center;
         justify-content: end;
     }
-        .D-Printing{
-            width: 60%;
-            height: 100%;
-            background: url('/assets/ImagensHome/BarraBannerCerto-removebg-preview.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: inherit;
 
-            display: flex;
-            justify-content: end;
+        .alinharElementoBanner{
+            width: 60%;
+            justify-content: center;
+            align-items: center;
         }
-            .Printingtext{
-                margin-right: 8%;
-                font-size: 192%;
+            .tituloBanner{
+                font-size: 210%;
             }
+
     .conhecerIA{
-        width: 77%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: end;
@@ -48,15 +43,15 @@
             border: none;
         }
 .resumo{
-    width: 100%;
+    width: 90%;
 
     display: flex;
-    justify-content:center;
+    justify-content:right;
     align-items: center;
     background-color:linear-gradient(90deg, rgba(201,201,201,1) 6%, rgba(211,211,211,1) 22%, rgba(233,233,233,1) 79%);
 }
     .textoresumo{
-        width: 70%;
+        width: 50%;
     }
         .TextoResumo{
             font-size: 176%;
@@ -71,7 +66,6 @@
     width: 100%;
     height: 600px;
     color: white;
-    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
