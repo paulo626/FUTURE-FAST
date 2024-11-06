@@ -12,10 +12,18 @@
     }
     .linksGuardados{
         width: 80%;
+        height: 300px;
         margin-top: 20px;
         background-color: rgb(139, 139, 139);
         border-radius: 5px;
         padding: 15px;
+        
+    }
+    .linksGuardados.fixolink {
+        position: fixed;
+        margin-top: 100px;
+        width: 25%;
+        margin-right: 5%; 
     }
         .linkBook{
             width: 100%;
@@ -25,3 +33,23 @@
             justify-content: center;
             color: white;
         }
+            .Links{
+                text-decoration: none;
+                color: white;
+
+            }
+            .Links:hover{
+                animation: clicar 1.3s infinite ;
+                color: rgb(192, 17, 17);
+                filter: drop-shadow(10px 10px 5px rgba(255, 255, 255, 0.738));
+                
+                
+            }
+            @keyframes clicar{
+                0%{transform:scale(1);}
+                50%{transform:scale(1.17) ;}
+                100%{transform:scale(1) ;}
+            }
+            html {
+                scroll-behavior: smooth;
+              }
