@@ -46,8 +46,11 @@ const {
   async function run() {
     // TODO Make these files available on the local file system
     // You may need to update the file paths
+
+
+    //open
     const files = [
-      await uploadToGemini("Unknown File", "application/octet-stream"),
+      await uploadToGemini('C:\\Users\\labsfiap\\Documents\\GitHub\\FUTURE-FAST\\js', "application/octet-stream"),                                                         
     ];
    
     const chatSession = model.startChat({
@@ -70,6 +73,5 @@ const {
     const result = await chatSession.sendMessage("hello Guto");
     console.log(result.response.text());
   }
-   
-  run();
+   ;
 
