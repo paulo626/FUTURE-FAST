@@ -1,0 +1,28 @@
+*{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.ParteEscrita{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+    .inputDigitar{
+        width: 250px;
+        height: 100%;
+    }
+        .Rodar{
+            width: 30px;
+            height: 100%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            .ImgRodar{
+                width: 24px;
+            }
