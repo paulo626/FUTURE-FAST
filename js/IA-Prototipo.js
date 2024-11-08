@@ -17,6 +17,7 @@ const {
   */
 
 
+
  /*Esta linha define uma função assíncrona chamada uploadToGemini, que recebe dois parâmetros: path (o caminho do arquivo a ser enviado) e mimeType (o tipo MIME do arquivo, que indica o formato do arquivo).
  */
   async function uploadToGemini(path, mimeType) {
@@ -74,4 +75,7 @@ const {
     console.log(result.response.text());
   }
    ;
+
+
+
 

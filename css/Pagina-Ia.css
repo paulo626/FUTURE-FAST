@@ -3,6 +3,41 @@
     text-align: center;
 }
 
+
+
+.centralizarElementos{
+    display: flex;
+    justify-content: space-around;
+}
+    iframe{
+        width: 60%;
+        height: 500px;
+    }
+    .cards{
+        width: 35%;
+        height: 500px;
+        background-color: rgb(65, 65, 65);
+        border: solid none;
+        border-radius:15px;
+        text-align: center;
+        padding: 0%;
+        overflow: auto;
+    }
+        .cards .tituloCard{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(45, 211, 64);
+        }
+        .cards .GuardaCard{
+            width: 100%;
+            background-color: blueviolet;
+        }
+
+
+
 .ParteEscrita{
     width: 100%;
     height: 30px;
