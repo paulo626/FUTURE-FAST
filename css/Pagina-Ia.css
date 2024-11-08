@@ -11,53 +11,82 @@
 }
     iframe{
         width: 60%;
-        height: 500px;
+        height: 550px;
     }
     .cards{
         width: 35%;
-        height: 500px;
+        height: 550px;
         background-color: rgb(65, 65, 65);
         border: solid none;
         border-radius:15px;
         text-align: center;
         padding: 0%;
-        overflow: auto;
     }
         .cards .tituloCard{
             width: 100%;
-            height: 50px;
+            height: 10%;
+            align-items: center;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             background-color: rgb(45, 211, 64);
         }
-        .cards .GuardaCard{
-            width: 100%;
-            background-color: blueviolet;
-        }
-
-
-
-.ParteEscrita{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-    .inputDigitar{
-        width: 250px;
-        height: 100%;
-    }
-        .Rodar{
-            width: 30px;
+        .InputCard{
+            width: 80%;
             height: 100%;
-            border-radius: 20px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
         }
-            .ImgRodar{
-                width: 24px;
+            .InputCardText{
+                background-color: dimgrey;
+                color: white;
+                height: 27px;
+                width: 152px;
+                border: none;
+                border-radius: 5px;
             }
+                .BotaoInput{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                }
+                    .ImgBotao{
+                        width: 25px;
+                    }
+
+        .cards .GuardaCard{
+            width: 100%;
+            height: 90%;
+            overflow: auto;
+            text-align: center;
+        }
+            .card{
+                height: 90px;
+                width: 90%;
+                margin-top: 15px;
+                margin-left: 15px;
+                border-radius: 15px;
+                background-color: rgba(16, 85, 234, 0.956);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .card p {
+                font-size: 20px;
+                width: 50%;
+                color: white;
+            }
+            .cardTirar{
+                width: 30px;
+                margin-right: 20px;
+            }
+
+
+
+
+    
