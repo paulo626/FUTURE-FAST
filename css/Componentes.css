@@ -22,6 +22,7 @@
             font-size: 130%;
             font-family: "Castoro Titling", serif;
         }
+
     .caminhos{
         width: 50%;
         display: flex;
@@ -34,6 +35,10 @@
             text-decoration: none;
             font-family: "Roboto", sans-serif;
         }
+        .Link:hover{
+            color: rgb(192, 192, 192);
+        }
+
     .opcoes{
         width: 15%;
         display: flex;

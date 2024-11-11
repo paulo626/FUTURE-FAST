@@ -45,6 +45,15 @@
                 width: 152px;
                 border: none;
                 border-radius: 5px;
+                color: white;
+            }
+            .InputCardText:focus{
+                background-color: rgb(57, 57, 57);
+                border: none;
+            }
+            .InputCardText::placeholder{
+                color: white;
+                border: none;
             }
                 .BotaoInput{
                     width: 30px;
@@ -54,6 +63,10 @@
                     align-items: center;
                     justify-content: center;
                     border: none;
+                }
+                .BotaoInput:hover{
+                    background-color: rgb(94, 94, 94);
+
                 }
                     .ImgBotao{
                         width: 25px;
@@ -82,8 +95,19 @@
                 color: white;
             }
             .cardTirar{
-                width: 30px;
+                width: 35px;
+                height: 35px;
                 margin-right: 20px;
+                background-color: rgb(164, 0, 0);
+                border: none;
+                border-radius: 20px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .cardTirar:hover{
+                background-color: rgb(220, 55, 0);
             }
 
 

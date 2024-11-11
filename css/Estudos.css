@@ -1,10 +1,111 @@
-
+*{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
 
 .conterTudoEstudo{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
+.conteudoEstudos{
+    text-align: center;
+    width: 80%;
+}
+    .BioPrinting{
+        width: 100%;
+        height: 460px;
+        background: url('/assets/imgEstudos/AdobeStock_550434585-1-1160x700\ 1.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+
+        display: flex;
+        align-items: top;
+    }
+        .textoBio{
+            height: 60%;
+            width: 45%;
+            margin-left: 20px;
+            
+        }
+            .tituloBio{font-size: 170%;}
+            .textoBioE{font-size: 135%;}
+
+.apliacacao{
+    width: 100%;
+    height: auto;
+}
+    .textoapliaca{
+        padding: 20px;
+    }
+.cardsAplica{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    .cardsApliacao{
+        width: 30%;
+        height: 441px;
+    }
+
+    .parteFundo{
+        width: 100%;
+        height: 97.5%;
+
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.750);
+        color: white;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .cards{
+        width: 100%;
+    
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+        .imgCard{
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+            .Imagemcard{
+                width: 70%;
+            }
+        .textoCards{
+            width: 70%;
+            text-align: center;
+        }
+        .TextoBio{
+            width: 75%;
+            font-size: 140%;
+            font-weight:00;
+            font-family: "Carlito", sans-serif;
+        }
+        .titiloBio{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .TituloBio{
+            font-size: 266%;
+        }
+
+
+
+
+
+
+
     .linksBooksMarks{
         width: 30%;
         display: flex;
@@ -40,14 +141,14 @@
             }
             .Links:hover{
                 animation: clicar 1.3s infinite ;
-                color: rgb(192, 17, 17);
-                filter: drop-shadow(10px 10px 5px rgba(255, 255, 255, 0.738));
+                color: rgb(0, 0, 0);
+            
                 
                 
             }
             @keyframes clicar{
                 0%{transform:scale(1);}
-                50%{transform:scale(1.17) ;}
+                50%{transform:scale(1.05) ;}
                 100%{transform:scale(1) ;}
             }
             html {
