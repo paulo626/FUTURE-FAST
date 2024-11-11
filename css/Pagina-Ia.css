@@ -27,34 +27,42 @@
             height: 10%;
             align-items: center;
             display: flex;
-            align-items: center;
-            justify-content: space-around;
+            justify-content: space-evenly;
             background-color: rgb(45, 211, 64);
         }
         .InputCard{
-            width: 80%;
+            width: 70%;
             height: 100%;
             display: flex;
             align-items: center;
             justify-content: space-around;
         }
-            .InputCardText{
-                background-color: dimgrey;
-                color: white;
-                height: 27px;
-                width: 152px;
-                border: none;
-                border-radius: 5px;
-                color: white;
-            }
-            .InputCardText:focus{
-                background-color: rgb(57, 57, 57);
-                border: none;
-            }
-            .InputCardText::placeholder{
-                color: white;
-                border: none;
-            }
+        .inputTitulo{
+            height: 30px;
+            width: 240px;
+            background-color:#3F79AE;
+            border:0;
+            border-radius: 30px;
+            color: white ;
+            font-size: 16px;
+            text-align: center;
+            padding: 5px;
+            
+        }
+        .inputTitulo::placeholder{
+            text-align: center;
+            color: white;
+            font-size: 17px;
+        }
+        .inputTitulo:focus{
+            color: white;
+            outline: none;
+            font-size: 16px;
+            padding: 5px;
+        }
+        .inputTitulo:focus::placeholder{
+            color:transparent;
+        }
                 .BotaoInput{
                     width: 30px;
                     height: 30px;
@@ -84,7 +92,7 @@
                 margin-top: 15px;
                 margin-left: 15px;
                 border-radius: 15px;
-                background-color: rgba(16, 85, 234, 0.956);
+                background-color: rgba(0, 144, 36, 0.956);
                 display: flex;
                 align-items: center;
                 justify-content: space-between;

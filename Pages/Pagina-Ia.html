@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/Pagina-Ia.css">
 
     <script defer src="/js/IA-Prototipo.js"></script>
+    <script defer src="/js/To-do-List.js"></script>
 </head>
 
 <body>
@@ -44,16 +45,14 @@
             <div class="tituloCard">
                 <p>Cards Perguntas</p>
                 <div class="InputCard">
-                    <input class="InputCardText" type="text" name="" id="PeguntaAdicionar" placeholder="Digite Sua Pergunta Aqui">
-                    <button class="BotaoInput"><img class="ImgBotao" src="/assets/imagensIa/arrow_upward_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+                    <input class="inputTitulo" type="text" id="titulo" placeholder="Digite o Titulo">
+
+                    <button onclick="buttonAtivado()" class="BotaoInput"><img class="ImgBotao" src="/assets/imagensIa/arrow_upward_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
                 </div>
             </div>
             <div id="GuardarCards" class="GuardaCard">
                 <!--card teste-->
-                <div class="card">
-                    <p>hello</p>
-                    <button class="cardTirar"><img class="ImgBotao" src="/assets/imagensIa/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
-                </div>
+                
                 <!--card teste-->
             </div>
         </div>
