@@ -156,25 +156,27 @@
               }
         .botaoDiv{
             width: 100%;
+            height: 30%;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-            .BotaoIA{
-                width: 149px;
-                height: 70px;
-                color:black;
-                background-color: #00ff62;
-                border-radius: 9px;
-                border: none;
-                font-size: 114%;
-            }
-            .BotaoIA:hover{
-                background-color: #ff9100;
-                animation: Almentar 1.5s infinite;
-            }
-            @keyframes Almentar {
-                0%{transform: scale(1);}
-                50%{transform: scale(1.067);}
-                100%{transform: scale(1);}
-            }
+        .botaoIA{
+            width: 196px;
+            height: 60px;
+            color:black;
+            background-color: #007bff;
+            border-radius: 9px;
+            border: none;
+            color: white;
+            font-size: 100%;
+        }
+        .botaoIA:hover{
+            background-color: #ff9100;
+            animation: Almentar 1.5s infinite;
+        }
+        @keyframes Almentar {
+            0%{transform: scale(1);}
+            50%{transform: scale(1.067);}
+            100%{transform: scale(1);}
+        }

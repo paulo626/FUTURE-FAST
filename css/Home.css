@@ -42,6 +42,8 @@
             background-color: #007bff;
             border-radius: 9px;
             border: none;
+            color: white;
+            font-size: 100%;
         }
         .botaoIA:hover{
             background-color: #ff9100;
