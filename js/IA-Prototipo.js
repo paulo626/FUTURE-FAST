@@ -51,7 +51,7 @@ const {
 
     //open
     const files = [
-      await uploadToGemini('C:\\Users\\labsfiap\\Documents\\GitHub\\FUTURE-FAST\\js', "application/octet-stream"),                                                         
+      await uploadToGemini("Unknown File", "application/octet-stream"),
     ];
    
     const chatSession = model.startChat({
