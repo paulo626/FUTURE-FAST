@@ -1,0 +1,63 @@
+
+*{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+
+.titulo{
+ text-align: center;
+ color: #017A6E;
+}
+Hr{
+    width: 50%;
+}
+
+.alinharTabela{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+    .tabela{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .alinharQuadrado{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .quadradro{
+        width: 70%;
+        background-color: #1C2120;
+        color: white;
+        padding: 10px;
+    }
+    .quadradro h3{
+        color:#017A6E ;
+    }
+        .ImgNos{
+            width: 90%;
+        }
+.fotoGeral{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+    .fotoGeral .quadradro{
+        width: 65%;
+    }
+.comoDesemvolvemos{
+    width: 50%;
+}
+.comoDesemvolvemos h4{
+    font-size: 200%;
+}
+.comoDesemvolvemos h1{
+    color: #017A6E;
+}

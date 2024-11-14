@@ -13,6 +13,7 @@
     text-align: center;
     width: 80%;
 }
+
     .BioPrinting{
         width: 100%;
         height: 460px;
@@ -73,7 +74,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
-    background-color: #EEEEEE;
+    background-color: #b3b3b3;
 }
     .imgExplica{
         width: 50%;
@@ -128,7 +129,7 @@
     .linksGuardados.fixolink {
         position: fixed;
         margin-top: 100px;
-        width: 25%;
+        width: 15%;
         margin-right: 5%; 
     }
         .linkBook{
